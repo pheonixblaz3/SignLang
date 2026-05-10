@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sign-decoder"
+version = "0.1.0"
+dependencies = [
+    "opencv-python==4.8.1.78",
+    "mediapipe==0.10.5",
+    "fastapi==0.104.1",
+    "uvicorn==0.24.0",
+]
